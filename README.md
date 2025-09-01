@@ -18,7 +18,8 @@ Nano-Banana is a revolutionary WordPress plugin that seamlessly integrates with 
 *   **Easy Setup**: Enter your Google AI API key and start in minutes with a test button to confirm connectivity.
 
 [**Download Here**]
-https://github.com/vvestnes/nano-banana-wordpress-plugin/blob/main/nano-banana-editor.zip
+
+https://github.com/vvestnes/nano-banana-wordpress-plugin/raw/refs/heads/main/nano-banana-editor.zip
 
 ---
 
