@@ -5,7 +5,7 @@
 
 ## Transform Your Images with the Power of AI, Right in WordPress
 
-Nano-Banana is a revolutionary WordPress plugin that seamlessly integrates with your media library and content editors to bring you the power of generative AI image editing. Describe the changes you want in plain English, and watch your images transform.
+Nano-Banana is a easy to use WordPress plugin that integrates with your media library and content editors to bring you the power of generative AI image editing. Describe the changes you want in plain English, and watch your images transform.
 
 
 ![Nano Banana Plugin Preview](https://raw.githubusercontent.com/vvestnes/nano-banana-wordpress-plugin/main/preview1.png)
