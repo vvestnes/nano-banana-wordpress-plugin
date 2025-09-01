@@ -11,6 +11,8 @@ Nano-Banana is a revolutionary WordPress plugin that seamlessly integrates with 
 
 ![Nano Banana Plugin Preview](https://raw.githubusercontent.com/vvestnes/nano-banana-wordpress-plugin/main/preview1.png)
 
+![Nano Banana Plugin Preview2](https://github.com/vvestnes/nano-banana-wordpress-plugin/blob/main/img2.png)
+
 ## Key Features
 
 *   **Seamless Integration**: Directly edit your images in Gutenberg, Classic editor, and Media Library without leaving WordPress.
