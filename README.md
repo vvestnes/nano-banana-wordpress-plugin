@@ -17,7 +17,7 @@ Nano-Banana is a revolutionary WordPress plugin that seamlessly integrates with 
 *   **One-Click Replacement**: Replace every instance of the old image across your site with one click.
 *   **Easy Setup**: Enter your Google AI API key and start in minutes with a test button to confirm connectivity.
 
-[**Download Here**](https://github.com/your-username/your-repo/archive/refs/heads/main.zip) *(<- You will need to replace this with your actual GitHub download link)*
+[**Download Here**]([https://github.com/your-username/your-repo/archive/refs/heads/main.zip](https://github.com/vvestnes/nano-banana-wordpress-plugin/blob/main/nano-banana-editor.zip))
 
 ---
 
