@@ -1,0 +1,195 @@
+/* Nano Banana Editor Styles */
+
+.nano-banana-edit-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    z-index: 9999;
+    position: relative;
+}
+
+.nano-banana-edit-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+.nano-banana-edit-btn:active {
+    transform: translateY(0);
+}
+
+/* Dialog styles */
+#nano-banana-dialog {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+#nano-banana-dialog h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 18px;
+}
+
+#nano-banana-dialog textarea {
+    border: 2px solid #e1e5e9;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    resize: vertical;
+    transition: border-color 0.2s ease;
+}
+
+#nano-banana-dialog textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+#nano-banana-dialog .button-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+#nano-banana-dialog .button-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#nano-banana-dialog .button-primary:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Progress bar */
+#edit-progress {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #667eea;
+}
+
+#progress-bar {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+/* Image hover effects in editor */
+.wp-block-image:hover .nano-banana-edit-btn,
+.mce-content-body img:hover + .nano-banana-edit-btn {
+    opacity: 1;
+}
+
+.nano-banana-edit-btn {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+/* Show button when parent is hovered */
+.wp-block-image:hover .nano-banana-edit-btn,
+.mce-content-body p:hover .nano-banana-edit-btn {
+    opacity: 1;
+}
+
+/* Notification styles */
+.notice.nano-banana-notification {
+    border-left-color: #667eea;
+}
+
+.notice.nano-banana-notification.notice-success {
+    border-left-color: #46b450;
+    background-color: #f7fcf7;
+}
+
+.notice.nano-banana-notification.notice-error {
+    border-left-color: #dc3232;
+    background-color: #fcf7f7;
+}
+
+/* Settings page styles */
+.nano-banana-settings-form {
+    max-width: 600px;
+}
+
+.nano-banana-settings-form .form-table th {
+    width: 200px;
+}
+
+.nano-banana-settings-form input[type="password"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Media library integration */
+.attachment-details .nano-banana-edit-btn {
+    margin-top: 10px;
+    position: static;
+    opacity: 1;
+    display: inline-block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #nano-banana-dialog {
+        width: 95%;
+        max-width: none;
+        margin: 20px;
+    }
+    
+    .nano-banana-edit-btn {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+}
+
+/* Animation for smooth transitions */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#nano-banana-dialog {
+    animation: fadeIn 0.2s ease-out;
+}
+
+/* Loading state */
+.nano-banana-loading {
+    position: relative;
+}
+
+.nano-banana-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
