@@ -6,6 +6,9 @@ Of course, here is the content formatted in Markdown.
 
 Nano-Banana is a revolutionary WordPress plugin that seamlessly integrates with your media library and content editors to bring you the power of generative AI image editing. Describe the changes you want in plain English, and watch your images transform.
 
+
+![Nano Banana Plugin Preview](https://raw.githubusercontent.com/vvestnes/nano-banana-wordpress-plugin/main/preview1.png)
+
 ## Key Features
 
 *   **Seamless Integration**: Directly edit your images in Gutenberg, Classic editor, and Media Library without leaving WordPress.
