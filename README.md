@@ -1,6 +1,5 @@
 ![Nano Banana Plugin Img1](https://github.com/vvestnes/nano-banana-wordpress-plugin/blob/main/img1.png)
 
-Of course, here is the content formatted in Markdown.
 
 # Nano Banana WordPress Plugin – Download
 
