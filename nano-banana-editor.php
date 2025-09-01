@@ -2,9 +2,12 @@
 /**
  * Plugin Name: Nano Banana Image Editor
  * Description: Edit images in WordPress articles using Google's Gemini 2.5 Flash Image AI
+ * License:           GPL-2.0-or-later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Version: 1.0
  * Author: Vidar Vestnes
  */
+
 
 // Prevent direct access
 if (!defined('ABSPATH')) {
